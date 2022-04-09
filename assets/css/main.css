@@ -1,6 +1,6 @@
 
 body {
-  background-color: #FFA07A;
+  background-color: #B0C4DE;
     font-family: 'Lato', sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -18,15 +18,20 @@ Cambios de TopSpeed
 	
 }
 .topspeed1{
-	border-radius: 2%;
-	color: white;
+	border-radius: 20px;
+	color:whitesmoke!important;
+	font-family: 'ABeeZee', sans-serif;
+	background-color: grey;
+	opacity: 0.6;
 }
 .topspeed1 b{
 	color: tomato
 }
-.Tospeed-menu{
+.tospeed-menu{
 	opacity:0.9;
-	background: white:
+}
+.tospeed-inicio b{
+	color: black;
 }
 .tospeed-inicio{
 	border:solid 0px green!important;
@@ -34,6 +39,15 @@ Cambios de TopSpeed
 	background:none!important;
 	opacity: none!important;
 	font-size: 20px;
+}
+.contenedor-tospeed{
+	border-radius: 20px;
+	height:500px;
+	width: 70%;
+	transition: 0.1s;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url("http://i.stack.imgur.com/jGlzr.png");
 }
 
 h1 b {
@@ -129,7 +143,7 @@ a:after {
 }
 
 .navbar-default {
-	background-color: #aaaaaa;
+	background-color: #E8E8E8;
 	border-color: transparent;
 }
 
@@ -168,7 +182,7 @@ i {
 /* HeaderWrap */
 #headerwrap {
 	/* background: url(../img/bg01.jpg) no-repeat center top; */
-	background-color: #aaaaaa;
+	background-color: #dcdcdc;
 	margin-top: -20px;
 	padding-top:200px;
 	background-attachment: relative;
