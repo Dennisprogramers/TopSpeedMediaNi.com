@@ -49,6 +49,7 @@ body {
 
 a {
     border-radius: 2%;
+	color: black!important;
 	
 }
 
@@ -58,7 +59,7 @@ a:focus {
 }
 
 
-@media only screen and (max-width:500px){
+@media only screen and (max-width:1200px){
 	
 	a{
 		background: white!important;
@@ -66,8 +67,20 @@ a:focus {
 		color: black!important;
 		opacity: 0.9;
 	}
+	.col-lg-4{
+		width: 80%;
+		height: auto;
+		justify-content: center;
+		margin: 50px;
+		overflow: hidden;
+	}
+	.col-lg-4:hover{
+		border: none;
+		border-radius: none;
+		background: none;
+		color:black!important;
+	}
 }
-
 a:active,
 a:hover{
 background-color: #ff4200!important;
@@ -925,17 +938,19 @@ pre code {
   padding-right: 15px;
   padding-left: 15px;
 }
+.col-lg-4 p{
+	color: white;
+}
 .col-lg-4{
-	background:white;
+	background:black;
 	height: 300px;
 	border-radius: 25px;
-	border: inset 3px #ff4200;
+	borde: inset 3px #ff4200;
 	transition: 0.1s;
 }
 .col-lg-4:hover{
 	border: inset 6px tomato;
-	background: white;
-	border-radius:20px;
+
 }
 .col-xs-1,
 .col-xs-2,
@@ -6363,6 +6378,7 @@ button.close {
 }
 
 .carousel-inner {
+	background: none;
   position: relative;
   width: 100%;
   overflow: hidden;
