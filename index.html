@@ -8,7 +8,13 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="shortcut icon" href="assets/img/favicon.png">
-    <link rel="icon" href="icono.ico">
+       <link rel="icon" href="icono.ico">
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+              <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> 
+	                   <link rel="preconnect" href="https://fonts.googleapis.com">
+                            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                                <link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet"> 
    
     <title>TopSpeed Media Ni.com</title>
 
@@ -41,10 +47,7 @@
           </button>
 			<center>
           <a class="tospeed-inicio"><b>TopSpeed Media</b></a>
-			</center>
-		  <br>
-		  
-		  
+			</center> 
         </div>
         <div class="navbar-collapse collapse Tospeed-menu">
           <ul class="nav navbar-nav navbar-right">
@@ -52,7 +55,7 @@
 			  <li><a class="Topspeed-a" href="#" target="_blank"><i class="fa-solid fa-credit-card"></i>Pago en linea</a></li>
 			  <li><a class="Topspeed-a" href="http://192.168.0.1/#/login" target="_blank"><i class="fa-solid fa-wrench"></i> Configuracion de tu router</a></li>
 			  <li><a class="Topspeed-a" href="http://192.168.100.216:8096/web/index.html" target="_blank"><i class="fa-solid fa-tv"></i>Emby</a></li>
-			  <li><a class="Topspeed-a" href="https://fast.com/es/" target="_blank"º><i class="fa-solid fa-gauge-high"></i>Verifica la velocidad de tu internet</a></li>
+			  <li><a class="Topspeed-a" href="https://fast.com/es/" target="_blank" ><i class="fa-solid fa-gauge-high"></i>Verifica la velocidad de tu internet</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -62,9 +65,9 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6"> 
-					<h1>Bienvenido</h1>
-					<h2 style="color: white; margin-left:100px">A</h2>
-					<h1 style="margin: 0">T<b>o</B>p<b>Speed</b>M<b>e</B>dia</h1><br/>
+					<h1 style="color: black;">Bienvenido</h1>
+					<h2 style="color: black; margin-left:100px">A</h2>
+					<h1 style="margin: 0; color:black!important;">T<b>o</b>p<b>Speed</b>M<b>e</b>dia</h1>
 					<h4 class="topspeed">Quieres obtener estos benefios? Has click en el boton de abajo</h4>
 					<br>
 					<form class="form-inline" action="https://wa.link/u764re" role="form">
@@ -96,7 +99,7 @@
 	<script>
 	function setHalfVolume() {
     var myAudio = document.getElementById("audio1");  
-    myAudio.volume = 0.3; //Changed this to 0.5 or 50% volume since the function is called Set Half Volume ;)
+    myAudio.volume = 0.5; //Changed this to 0.5 or 50% volume since the function is called Set Half Volume ;)
 	$("ps5.mp4").each(function(i,audio){audio.stop()});
 	
 	{
@@ -120,8 +123,32 @@
 }
 	</script>
 	  </audio>
-	
-	
+	  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+	  <script>
+	var index = 0;
+
+    var listaimg = ["fondo2.jpg", "fondo4.jpg", "fondo3.jpg", "fondo6.jpg", "fondo5.jpg",];
+
+$(function() {
+  
+    setInterval(changeImage, 5002);
+  
+});
+
+function changeImage() {
+  
+ 
+   $('.contenedor-tospeed').css("background-image", 'url(' + listaimg[index] + ')');
+                  
+   index++;
+                  
+   if(index == 5)
+      index = 0;
+    
+    
+}
+	  </script>
 	<div class="container">
 		<div class="row mt centered">
 			<div class="col-lg-6 col-lg-offset-3">
@@ -132,26 +159,65 @@
 		</div><!-- /row -->
 		
 		<div class="row mt centered">
+			<div class="col-lg-6 col-lg-offset-3">
+				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+				   Indicators
+				  <ol class="carousel-indicators">
+				    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+				  </ol>
+				
+				  <!-- Wrapper for slides -->
+				  <div class="carousel-inner">
+					  <p>TopSpeed</p>
+				    <div class="item active">
+				      <img src="assets/img/p01.png" alt="">
+				    </div>
+				    <div class="item">
+				      <img src="assets/img/p02.png" alt="">
+				    </div>
+				    <div class="item">
+				      <img src="assets/img/p03.png" alt="">
+				    </div>
+					  <div class="item">
+				      <img src="assets/img/p04.png" alt="">
+				    </div>
+					  <div class="item">
+				      <img src="assets/img/p05.png" alt="">
+				    </div>
+					  <div class="item">
+				      <img src="assets/img/p06.png" alt="">
+				    </div>
+				  </div>
+				</div>			
+			</div>
+			<br>
+			<br>
+			<br>
+		<div class="row mt centered">
+			<!--
 			<div class="col-lg-4">
 				<img src="assets/img/ser01.png" width="180" alt="">
 				<h4 class="topspeed">1 -Navegacion ilimitada</h4>
 				<p>Contrata el mejor servicio de Internet Residencial en TopSpeed Media con velocidades desde 10Mbps con las que puedes, descarga música, ver películas, compartir archivos y navegar ilimitadamente. </p>
-			</div><!--/col-lg-4 -->
+			</div><!--/col-lg-4
 
 			<div class="col-lg-4">
 				<img src="assets/img/ser02.png" width="180" alt="">
 				<h4 class="topspeed">2 - Servicio de Calidad</h4>
 				<p>Estabilidad en tu servicio de internet, disponible cuando lo necesites.</p>
 
-			</div><!--/col-lg-4 -->
+			</div><!--/col-lg-4 
 
 			<div class="col-lg-4">
 				<img src="assets/img/ser03.png" width="180" alt="">
 				<h4 class="topspeed">3 - Rapidez</h4>
 				<p>Descargá aplicaciones música y vídeos con mucha más velocidad.</p>
 
-			</div><!--/col-lg-4 -->
-		</div><!-- /row -->
+			</div><!--/col-lg-4 
+		
+		</div><!-- /row 
 	</div><!-- /container -->
 	
 	<div class="container">
@@ -169,28 +235,28 @@
 		</div><!-- /row -->
 		<hr>
 	</div><!-- /container -->
-	
+	  <center>
+	<div class="contenedor-tospeed">
 	<div class="container">
 		<div class="row mt centered">
 			<div class="col-lg-6 col-lg-offset-3">
-				<h1>T<b>o</B>p<b>Speed</b>M<b>e</B>dia</h1>
-				<br>
-				<h4 class="topspeed1">El internet es fundamental en nuestras vidas. Sin embargo muchas familias que viven en lugares rurales el internet sigue siendo una leyenda TopSpeed</B> esta aqui para cambiar eso.TopSpeed es un proveedor de internet rapido y barato </h4>
+				
 			</div>
 		</div><!-- /row -->
+	<!--
+		<! -- CAROUSEL 
 	
-		<! -- CAROUSEL -->
 		<div class="row mt centered">
 			<div class="col-lg-6 col-lg-offset-3">
 				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-				  <!-- Indicators -->
+				  <!-- Indicators
 				  <ol class="carousel-indicators">
 				    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
 				    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
 				    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
 				  </ol>
 				
-				  <!-- Wrapper for slides -->
+				  <!-- Wrapper for slides 
 				  <div class="carousel-inner">
 				    <div class="item active">
 				      <img src="assets/img/p01.png" alt="">
@@ -201,14 +267,29 @@
 				    <div class="item">
 				      <img src="assets/img/p03.png" alt="">
 				    </div>
+					  <div class="item">
+				      <img src="assets/img/p04.png" alt="">
+				    </div>
+					  <div class="item">
+				      <img src="assets/img/p05.png" alt="">
+				    </div>
+					  <div class="item">
+				      <img src="assets/img/p06.png" alt="">
+				    </div>
 				  </div>
 				</div>			
 			</div><!-- /col-lg-8 -->
 		</div><!-- /row -->
 	</div><! --/container -->
-	
+	</div>
+	  </center>
 	<div class="container">
 		<hr>
+		<div class="col-lg-6 col-lg-offset-3">
+				<h1>T<b>o</B>p<b>Speed</b>M<b>e</B>dia</h1>
+				<br>
+				<h4 class="topspeed1">"El internet es fundamental en nuestras vidas. Sin embargo muchas familias que viven en lugares rurales el internet sigue siendo una leyenda TopSpeed</B> esta aqui para cambiar eso.TopSpeed es un proveedor de internet rapido y barato"</h4>
+			</div>
 		<div class="row centered">
 			<div class="col-lg-6 col-lg-offset-3">
 				<form class="form-inline" action="https://wa.link/u764re" role="form">
