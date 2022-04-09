@@ -1,6 +1,6 @@
 
 body {
-  background-color: #aaaaaa;
+  background-color: #FFA07A;
     font-family: 'Lato', sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -11,6 +11,7 @@ body {
 }
 /*
 Cambios de TopSpeed
+#F0F8FF
 */
 .topspeed{
 	color: #4682B4;
@@ -27,6 +28,14 @@ Cambios de TopSpeed
 	opacity:0.9;
 	background: white:
 }
+.tospeed-inicio{
+	border:solid 0px green!important;
+	color:white!important;
+	background:none!important;
+	opacity: none!important;
+	font-size: 20px;
+}
+
 h1 b {
 	color: tomato
 }
@@ -44,12 +53,11 @@ h1 b {
 }
 .topspeed1{
 	border-radius: 2%;
-	color: white;
-	
+	color: antiquewhite;
 	width:;
 }
 .topspeed1 b{
-	color: tomato
+	color: tomato;
 }
 h1 {
 	font-size: 40px;
