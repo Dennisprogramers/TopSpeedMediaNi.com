@@ -39,15 +39,20 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><b>TopSpeed Media</b></a>
+			<center>
+          <a class="tospeed-inicio"><b>TopSpeed Media</b></a>
+			</center>
+		  <br>
+		  
+		  
         </div>
         <div class="navbar-collapse collapse Tospeed-menu">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#" target="_blank"><i class="fa-solid fa-house-signal"></i>Tienes problemas con tu internet?</a></li>
-			  <li><a href="#" target="_blank"><i class="fa-solid fa-credit-card"></i>Pago en linea</a></li>
-			  <li><a href="http://192.168.0.1/#/login" target="_blank"><i class="fa-solid fa-wrench"></i> Configuracion de tu router</a></li>
-			  <li><a href="http://192.168.100.216:8096/web/index.html" target="_blank"><i class="fa-solid fa-tv"></i>Emby</a></li>
-			  <li><a href="https://fast.com/es/" target="_blank"º><i class="fa-solid fa-gauge-high"></i>Verifica la velocidad de tu internet</a></li>
+			  <li><a class="Topspeed-a" href="#" target="_blank"><i class="fa-solid fa-credit-card"></i>Pago en linea</a></li>
+			  <li><a class="Topspeed-a" href="http://192.168.0.1/#/login" target="_blank"><i class="fa-solid fa-wrench"></i> Configuracion de tu router</a></li>
+			  <li><a class="Topspeed-a" href="http://192.168.100.216:8096/web/index.html" target="_blank"><i class="fa-solid fa-tv"></i>Emby</a></li>
+			  <li><a class="Topspeed-a" href="https://fast.com/es/" target="_blank"º><i class="fa-solid fa-gauge-high"></i>Verifica la velocidad de tu internet</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -57,8 +62,10 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6"> 
-					<h1>Bienvenido a T<b>o</B>p<b>Speed</b>M<b>e</B>dia Sopourt</h1><br/>
-					<h4 class="topspeed">Rellena los formularios para contactarnos con TopSpeed</h4>
+					<h1>Bienvenido</h1>
+					<h2 style="color: white; margin-left:100px">A</h2>
+					<h1 style="margin: 0">T<b>o</B>p<b>Speed</b>M<b>e</B>dia</h1><br/>
+					<h4 class="topspeed">Quieres obtener estos benefios? Has click en el boton de abajo</h4>
 					<br>
 					<form class="form-inline" action="https://wa.link/u764re" role="form">
 					  <div class="form-group">
@@ -91,6 +98,25 @@
     var myAudio = document.getElementById("audio1");  
     myAudio.volume = 0.3; //Changed this to 0.5 or 50% volume since the function is called Set Half Volume ;)
 	$("ps5.mp4").each(function(i,audio){audio.stop()});
+	
+	{
+
+	var saludo = ""
+	var tiempo = new
+	Date().getHours()
+	var nombre = prompt(" Hola! Pofavor escribe tu nombre aqui abajo");
+
+	if(tiempo <12){
+		saludo= " Buenos dias espero tengas un lindo dia disfruta de esta web ";
+	}else if (tiempo <18){
+	 saludo = "Buenas tardes disfruta de esta web";
+}else{
+	saludo= " Espero allas tenido un lindo dia disfruta de esta web "
+}
+
+ 
+ alert(nombre + saludo )
+}
 }
 	</script>
 	  </audio>
@@ -132,11 +158,11 @@
 		<hr>
 		<div class="row centered">
 			<div class="col-lg-6 col-lg-offset-3">
-				<form class="form-inline" role="form">
+				<form class="form-inline" role="form" action="https://wa.link/u764re">
 				  <div class="form-group">
-				    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Escribe tu correo">
+				    <p>No te arrepentiras</p>
 				  </div>
-				  <button type="submit" class="btn btn-warning btn-lg">Contrata tu internet hoy mismo!</button>
+				  <button type="submit" class="btn btn-warning btn-lg topspeed-button">Contrata tu internet hoy mismo!</button>
 				</form>					
 			</div>
 			<div class="col-lg-3"></div>
@@ -149,7 +175,7 @@
 			<div class="col-lg-6 col-lg-offset-3">
 				<h1>T<b>o</B>p<b>Speed</b>M<b>e</B>dia</h1>
 				<br>
-				<h4 class="topspeed1">El internet es fundamental en nuestras vidas. Sin embargo muchas familias que viven en lugares rurales el internet sigue siendo una leyenda TopSpeed</B> esta aqui para cambiar eso.TopSpeed es un proveedor de internte rapido y barato </h4>
+				<h4 class="topspeed1">El internet es fundamental en nuestras vidas. Sin embargo muchas familias que viven en lugares rurales el internet sigue siendo una leyenda TopSpeed</B> esta aqui para cambiar eso.TopSpeed es un proveedor de internet rapido y barato </h4>
 			</div>
 		</div><!-- /row -->
 	
@@ -185,11 +211,11 @@
 		<hr>
 		<div class="row centered">
 			<div class="col-lg-6 col-lg-offset-3">
-				<form class="form-inline" role="form">
+				<form class="form-inline" action="https://wa.link/u764re" role="form">
 				  <div class="form-group">
-				    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your email address">
+				    <p>No te arrenpentiras</p>
 				  </div>
-				  <button type="submit" class="btn btn-warning btn-lg">Invite Me!</button>
+				  <button type="submit" class="btn btn-warning btn-lg topspeed-button">Contrata tu internet hoy mismo!</button>
 				</form>					
 			</div>
 			<div class="col-lg-3"></div>
@@ -220,8 +246,8 @@
 				<p><i class="glyphicon glyphicon-send"></i> <i class="glyphicon glyphicon-phone"></i> <i class="glyphicon glyphicon-globe"></i></p>
 			</div>
 			</center>
-		<!--/col-lg-4 -->
-     <!--
+		<!--col-lg-4
+     
 			<div class="col-lg-4">
 				<img class="img-circle" src="assets/img/pic3.jpg" width="140" alt="">
 				<h4>Angelica Finning</h4>
@@ -245,7 +271,7 @@
 			<div class="col-lg-3"></div>
 		</div><!-- /row -->
 		<hr>
-		<p class="centered">Created by Dennis - Attribution License 3.1 - 2022</p>
+		<p class="centered">Created by Dennis - Attribution License 3.3 - 2022</p>
 	</div><!-- /container -->
 	
 
