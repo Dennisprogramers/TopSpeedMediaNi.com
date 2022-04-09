@@ -9,6 +9,24 @@ body {
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
 }
+/*
+Cambios de TopSpeed
+*/
+.topspeed{
+	color: #4682B4;
+	
+}
+.topspeed1{
+	border-radius: 2%;
+	color: white;
+}
+.topspeed1 b{
+	color: tomato
+}
+.Tospeed-menu{
+	opacity:0.9;
+	background: white:
+}
 h1 b {
 	color: tomato
 }
@@ -70,7 +88,13 @@ a {
     -o-transition: color 0.1s ease-in, background 0.1s ease-in;
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
-
+.topspeed-button{
+	background: white;
+	color: black;
+}
+.topspeed-button:hover{
+	background: #ff4200;
+}
 a:hover,
 a:focus {
     color: #7b7b7b;
@@ -124,7 +148,7 @@ a:after {
 
 .form-control:hover{
 	width: 290px;
-	border: solid 2px green;
+	border: solid 2px #ff4200;
 }
 
 i {
