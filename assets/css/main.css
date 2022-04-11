@@ -41,13 +41,21 @@ Cambios de TopSpeed
 	font-size: 20px;
 }
 .contenedor-tospeed{
+	display: block;
 	border-radius: 20px;
-	height:500px;
-	width: 70%;
+	height:550px;
+	width: 60%;
 	transition: 0.1s;
 	background-size: cover;
-	background-repeat: no-repeat;
-	background-image: url("http://i.stack.imgur.com/jGlzr.png");
+	background-image:url("http://i.stack.imgur.com/jGlzr.png");
+	
+	z-index: 100;
+}
+.responsive{
+	display: none;
+	width: 0;
+	margin: 0;
+	padding: 0;
 }
 
 h1 b {
@@ -211,7 +219,33 @@ i {
 }
 @media only screen and (max-width:900px)
 {
+
+	 .carousel-inner{
+	 	width: 100%!important;
+	 }
+	
+	.responsive{
+		background-image:url("http://i.stack.imgur.com/jGlzr.png");
+		background-size: cover;
+		height:500px;
+	    width: 100%;
+	    display: block;
+	    border-radius: 20px;
+	}
+	.contenedor-tospeed{
+          display: none;
+          width: 0;
+
+	}
 	h3{
 		 width: 100%;
+	}
+}
+@media only screen and(min-width: 901px){
+	.responsive{
+		display: none;
+	}
+	.contenedor-tospeed{
+		display: inline-block;
 	}
 }
